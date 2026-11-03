@@ -1,6 +1,6 @@
-package com.larsen
+package com.larsen;
 
-public class MenuItem() {
+public class MenuItem {
     private Recipe recipe;
     private double price;
     private String name;

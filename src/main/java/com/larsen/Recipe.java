@@ -24,7 +24,7 @@ public class Recipe {
         for (Map.Entry<Ingredient, Double> entry : ingredients.entrySet()) {
             Ingredient ingredient = entry.getKey();
             double quantity = entry.getValue();
-            price += ingredient.getValue() * quantity;
+            price += entry.getValue() * quantity;
         }
 
         return price;
